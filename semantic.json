@@ -8,12 +8,12 @@
       "themes": "src/themes/"
     },
     "output": {
-      "packaged": "../public/dist/",
-      "uncompressed": "../public/dist/components/",
-      "compressed": "../public/dist/components/",
-      "themes": "../public/dist/themes/"
+      "packaged": "../src/semantic/dist/",
+      "uncompressed": "../src/semantic/dist/components/",
+      "compressed": "../src/semantic/dist/components/",
+      "themes": "../src/semantic/dist/themes/"
     },
-    "clean": "../public/dist/"
+    "clean": "../src/semantic/dist/"
   },
   "permission": false,
   "autoInstall": false,
