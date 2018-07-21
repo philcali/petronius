@@ -12,7 +12,7 @@ class Petronius {
           this.options.errorHandler(new Error(resp.statusText));
         }
       })
-      .addResponseHandler(resp => resp.ok());
+      .addResponseHandler(resp => resp.json());
     if (this.options.accessToken) {
       this.setAccessToken(options.accessToken);
     }

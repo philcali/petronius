@@ -1,5 +1,4 @@
 
-
 class StateManager {
 
   getItem(key) {
